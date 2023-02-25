@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.drk-bg{
+  background: black;
+  color: #fff;
+}
+
+.lg-drk{
+  background: #f9f7f7;
+  color: #0a0a0a;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius:30% / 50% ;
+  width: 10rem;
+  padding: .25rem ;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 1px 5px rgba(172, 170, 170, .25)  ;
+}
+
+li{
+  list-style: none;
+  font-size: 1.5rem;
+  margin: .5rem;
+  border: none ;
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+}
+
+.sun{
+  background: #0a0a0a;
+  color: #fff;
+  border-radius: 50%;
+  transition: all .5s ease;
+}
+
+
+.active-moon{
+  background: #f1eded;
+  border: none;
+  border-radius: 50%;
+  color: rgb(12, 1, 1);
+  transition: all .5s ease;
+}
+
+
+
