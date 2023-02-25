@@ -4,17 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/836138ac3a.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+ <link rel="stylesheet" href="./css/style.css">
   <title>Animated Toggle Mode</title>
 </head>
-<body>
-    <div class="container">
-      <ul>
-        <li class="sun"><i class="fa-solid fa-sun"></i></li>
-        <li class="moon "><i class="fa-solid fa-moon"></i></li>
-      </ul>
-    </div>
+<body class="light">
+  
+    <input type="checkbox" id="toggle" />
+    <label class="toggle" for="toggle">
+        <i class="bx bxs-sun"></i>
+        <i class="bx bx-moon"></i>
+        <span class="ball"></span>
+    </label>
+  
   <script src="./javascript/script.js"></script>
 </body>
 </html>
